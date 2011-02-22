@@ -1,0 +1,11 @@
+<wicket:extend>
+	<a wicket:id="link" href="#" class="nav">{ new(BUG|FEAT|ENH) }</a>
+	<div wicket:id="feedback" style="text-shadow: gray; color: red;">feedback</div>
+	<div wicket:id="task" class="task">
+		<img wicket:id="type" class="type" />
+		<h2 wicket:id="title">[titre]</h2>
+		<a wicket:id="editLink" class="editLink" href="#">modifier()</a> 
+		<a wicket:id="deleteLink" class="deleteLink" href="#">_supprimer()</a>	
+		<p wicket:id="description">[description]</p>
+	</div>
+</wicket:extend>

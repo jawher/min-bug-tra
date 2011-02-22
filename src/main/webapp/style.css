@@ -1,0 +1,195 @@
+/**************** body and tag styles ****************/
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #aaa;
+}
+
+#container {
+	width: 600px;
+	margin: 0 auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.6em;
+	color: #666666;
+}
+
+
+
+#header {
+	padding: 10px 20px;
+	margin: 0;
+	text-shadow: black;
+}
+
+#header h1 {
+	font-size: 32px;
+	margin: 10px 0;
+}
+
+#header h1 em {
+	font-style: normal;
+	color: #333;
+	text-decoration: line-through;
+}
+
+
+a {
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+	font-family: monospace;
+}
+
+a:hover {
+	text-decoration: underline;	
+	color: #333;
+}
+a.nav {
+	font-size: 24px;
+	display: block;
+	padding: 6px 20px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	margin: 20px 0 0 0;
+	padding: 20px;
+	font-size: 12px;
+}
+
+#footer em {
+	font-style: normal;
+	color: #333;
+	text-decoration: line-through;
+}
+
+#footer p a {
+	color: #666;
+}
+
+#footer p a:hover {
+	color: #333;
+	background-color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.task {
+	margin-bottom: 15px;
+	padding: 10px 20px;
+	border: 1px solid #999;
+	background: white;
+	position: relative;
+	/*background: #999;*/
+}
+
+.feedback {
+	margin-bottom: 15px;
+	padding: 10px 20px;
+	border: 1px solid #999;
+	background: white;
+	position: relative;
+	/*background: #999;*/
+}
+
+.task a {
+	display: block;
+	position: absolute;	
+	padding: 4px 20px;
+	text-align: center;
+}
+
+.task a.editLink {
+	right: 0;
+	bottom: 10px;
+	aborder-top: 1px solid #ddd;
+	aborder-left: 1px solid #ddd;
+	font-size: 16px;
+}
+
+.task a.deleteLink {
+	bottom: 10px;
+	left: 0;
+	aborder-top: 1px solid #ddd;
+	aborder-left: 1px solid #ddd;
+}
+
+.task a.deleteLink:hover {
+	color: red;
+}
+
+.task img.type {
+	width: 24px;
+	float: left;
+	margin-right: 10px;
+}
+
+.task h2 {
+	color: #999;
+	margin: 0 0 0 34px;
+	line-height: 24px;	
+}
+
+.task p {
+	margin: 20px 0 40px 0;
+	text-align: justify;
+}
+
+.closed {
+	background: #bbb;	
+}
+
+.closed h2 {
+	color: #666;
+	text-decoration: line-through;	
+}
+
+
+form {
+	background: white;
+	padding: 5px 20px;
+	margin: 0;	
+}
+
+form ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+form li {
+	margin: 5px 0 0 0;
+	overflow: hidden;
+}
+
+form li.full {
+	padding-right: 8px;
+}
+form li.full input {
+	width: 100%;
+}
+
+
+input, select, textarea {
+	background-color: #FFFFFF;
+	color: #333;
+	border: 1px solid #666;
+	font-size: 11px;
+	padding: 4px;
+	margin: 0;
+}
+
+input[type=submit] {
+	float: right;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+}
+
+input[type=radio] {
+	margin-right: 4px;
+}
+
