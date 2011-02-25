@@ -52,7 +52,7 @@ public class EditPage extends BasePage {
 	}
 
 	private void build(IModel<Task> model, final boolean edit) {
-		add(new BookmarkablePageLink<ListPage>("link", ListPage.class));
+		add(new BookmarkablePageLink<Void>("link", ListPage.class));
 		add(new FeedbackPanel("feedback"));
 
 		Form<Task> form = new Form<Task>("form", model) {

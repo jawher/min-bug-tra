@@ -30,7 +30,7 @@ public class ListPage extends BasePage {
 			ListPage.class, "pics/circle_green.png");
 
 	public ListPage() {
-		add(new BookmarkablePageLink<EditPage>("link", EditPage.class));
+		add(new BookmarkablePageLink<Void>("link", EditPage.class));
 		add(new FeedbackPanel("feedback"));
 
 		IModel<List<Task>> listModel = new LoadableDetachableModel<List<Task>>() {
@@ -59,7 +59,7 @@ public class ListPage extends BasePage {
 				item.add(new Label("description", t.getDescription().replace(
 						"\n", "<br />")).setEscapeModelStrings(false));
 				item
-						.add(new BookmarkablePageLink<EditPage>("editLink",
+						.add(new BookmarkablePageLink<Void>("editLink",
 								EditPage.class, new PageParameters("task="
 										+ t.getId())));
 				Link<Long> deleteLink = new Link<Long>("deleteLink",
