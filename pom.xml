@@ -39,7 +39,7 @@
 	</scm>
 
 	<properties>
-		<wicket.version>1.4.15</wicket.version>
+		<wicket.version>1.4.16</wicket.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
